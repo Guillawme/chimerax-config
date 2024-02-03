@@ -1,0 +1,18 @@
+# Generate shortcut buttons
+# This file must be loaded last, since it uses aliases defined in other files
+
+buttonpanel Shortcuts rows 3 columns 4
+
+buttonpanel Shortcuts add Log command "tool show Log"                           
+buttonpanel Shortcuts add Models command "tool show 'Model Panel'"              
+buttonpanel Shortcuts add Volumes command "tool show 'Volume Viewer'"
+buttonpanel Shortcuts add "Coot mode" command "preset custom 'oli coot mode mesh'"
+buttonpanel Shortcuts add cofron command "cofron"
+buttonpanel Shortcuts add "Clip 10" command "symclip 10"
+buttonpanel Shortcuts add "Show maps" command "showmaps"
+buttonpanel Shortcuts add "Map sphere 15" command "mapsphere 15"
+buttonpanel Shortcuts add cofroff command "cofroff"
+buttonpanel Shortcuts add "Clip off" command "clip off"
+buttonpanel Shortcuts add "Hide maps" command "hidemaps"
+buttonpanel Shortcuts add "Map unsphere" command "mapunsphere"
+

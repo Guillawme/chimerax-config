@@ -1,0 +1,18 @@
+# Coot display style in ChimeraX
+# From https://twitter.com/YongChan_zzz/status/1594198279793045505
+
+volume style mesh meshlighting false squaremesh false
+color #005FFF transparency 20 targ s
+lighting model all directional false
+hide cartoon
+show atoms
+hide H
+style ball
+size ball 0.1 stickradius 0.08
+style solvent sphere
+size solvent atom 0.2
+color byelement targ a
+color C #E0E000 targ a
+set bgcolor black
+camera ortho
+

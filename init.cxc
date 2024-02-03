@@ -1,0 +1,13 @@
+# Main initialization file for ChimeraX
+
+# Place the following line in the field "Execute these commands at startup" of
+# the "Startup preferences" panel:
+# open /path/to/this/init.cxc
+# See <https://www.cgl.ucsf.edu/chimerax/docs/user/preferences.html#startup>
+# Then the rest of the configuration can go in this main file (which can itself
+# open other files, allowing to break down the configuration in separate files).
+
+open ui/default.cxc
+open ui/aliases.cxc
+open ui/buttons.cxc
+

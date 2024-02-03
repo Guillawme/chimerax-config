@@ -1,0 +1,23 @@
+# Coot display style in ChimeraX, version 2
+# From https://twitter.com/YongChan_zzz/status/1661995941367537664
+
+hide target ar
+show target a
+volume step 1
+volume all style mesh meshlighting false squaremesh false
+color #005FFF transparency 20 target s
+
+lighting model all directional false
+style ball 
+size ballscale 0.08 stickradius 0.07
+color byhetero target a
+color C #E0E000 target a
+
+set bgcolor black
+camera ortho
+clip off
+clip near -6 far 6
+
+view cofr true
+cofr centerofview showpivot true
+

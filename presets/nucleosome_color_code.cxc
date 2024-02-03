@@ -1,0 +1,34 @@
+# A ChimeraX preset to apply the conventional color code for nucleosomes and
+# their binding factors
+
+# The color code for histones comes from:
+# Luger et al, 1997, https://doi.org/10.1038/38444
+# The DNA is arbitrarily grey.
+# The color code for binding factors comes from:
+# Zhou, Gaullier & Luger, 2019, https://doi.org/10.1038/s41594-018-0166-x
+
+# This preset is meant for quick visualization rather than handling every
+# possible case, so both naming and coloring assume that:
+# - chain IDs of histones and DNA are assigned like in PDB 1AOI (first structure
+#   of a nucleosome)
+# - chain ID of the binding factor is K, like in PDB 1ZLA (first structure of a
+#   nucleosome with a binding factor)
+# This preset also assigns names to each chain, to make selections easier.
+# Atomic models not following these conventions will cause the selection names
+# and colors to target the wrong chains, but this can be fixed manually.
+
+name H3 /a/e
+name H4 /b/f
+name H2A /c/g
+name H2B /d/h
+name histones /a-h
+name DNA /i/j
+name bindingFactor /k
+
+color H3 blue
+color H4 green
+color H2A yellow
+color H2B red
+color DNA grey
+color bindingFactor magenta
+
