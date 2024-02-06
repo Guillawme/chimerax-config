@@ -7,10 +7,6 @@ alias cofroff cofr centerofview showpivot false
 # Automatically clip around the center of rotation
 alias symclip cofr centerofview; clip near -$1 far $1 position cofr
 
-# Backbone trace modes
-alias bbsidechains hide $1 cartoons; hide $1 surfaces; hide $1; show $1@CA&protein; show $1@P&nucleic; style $1 stick; show $1&sidechain; show $1&~backbone&nucleic; size stickradius 0.1; size pseudobondradius 0.1
-alias bbtrace hide $1 cartoons; hide $1 surfaces; hide $1; show $1@CA&protein; show $1@P&nucleic; style $1 stick; size stickradius 0.1; size pseudobondradius 0.1
-
 # Map sphere around center of rotation
 alias mapsphere surface unzone ##~num_residues; sel; close #10000; marker #10000 position cofr; sel ~sel; surface zone ##~num_residues nearAtoms sel distance $1; close #10000
 alias mapunsphere surface unzone ##~num_residues
@@ -18,3 +14,4 @@ alias mapunsphere surface unzone ##~num_residues
 # Quickly toggle maps
 alias hidemaps surface unzone ##~num_residues; sel; close #10000; marker #10000 position cofr; sel ~sel; surface zone ##~num_residues nearAtoms sel distance 0; close #10000
 alias showmaps surface unzone ##~num_residues
+

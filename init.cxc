@@ -8,6 +8,7 @@
 # open other files, allowing to break down the configuration in separate files).
 
 open commands/alphafold.cxc
+open commands/backbonetrace.cxc
 open ui/defaults.cxc
 open ui/aliases.cxc
 open ui/buttons.cxc

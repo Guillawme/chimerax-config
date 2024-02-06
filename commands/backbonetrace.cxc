@@ -1,0 +1,10 @@
+# Backbone trace modes
+
+# Display selection as backbone trace and side chains as sticks
+# Run as bbsidechains <atom-spec>
+alias bbsidechains hide $1 cartoons; hide $1 surfaces; hide $1; show $1@CA&protein; show $1@P&nucleic; style $1 stick; show $1&sidechain; show $1&~backbone&nucleic; size stickradius 0.1; size pseudobondradius 0.1
+
+# Display selection as backbone trace only
+# Run as bbtrace <atom-spec>
+alias bbtrace hide $1 cartoons; hide $1 surfaces; hide $1; show $1@CA&protein; show $1@P&nucleic; style $1 stick; size stickradius 0.1; size pseudobondradius 0.1
+
