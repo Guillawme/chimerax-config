@@ -1,0 +1,8 @@
+# Prepare AlphaFold results for visualization
+# Run as afresults #<model-id>
+alias afresults mmaker ~$1 to $1; color bfactor all palette alphafold; hide ~$1 models; view $1
+
+# Shortcut to apply conventional pLDDT color code
+# Run as afcolor #<model-id>
+alias afcolor color bfactor $1 palette alphafold
+

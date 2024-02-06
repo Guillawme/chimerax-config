@@ -1,0 +1,11 @@
+# Preset to apply conventional pLDDT color code
+# and visualization settings I find comfortable
+# to inspect AlphaFold predictions
+
+hide
+show cartoons
+set bgcolor grey
+lighting soft
+graphics silhouette true
+color bfactor all palette alphafold
+
