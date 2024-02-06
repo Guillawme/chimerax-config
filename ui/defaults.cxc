@@ -1,6 +1,6 @@
 # My preferred default appearance for quick interactive navigation
 
-set bgcolor grey
 preset custom "guillaume default mol display"
-cofr centerofview
+set bgcolor grey
+cofr centerofview showpivot 6,0.25
 
