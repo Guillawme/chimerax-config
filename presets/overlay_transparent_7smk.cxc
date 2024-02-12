@@ -1,0 +1,14 @@
+# A preset for an analysis I needed to repeat many times
+# This assumes that models #1-25 already exist
+
+open 7smk
+sym #26 assembly 1
+combine #27
+hide #26,27 models
+mmaker #28 to #1
+hide #28 cartoons
+show #28 surface
+color #28 lightgrey
+color #28/c,f,i,l,o,r,u,x black
+transparency #28 70 target s
+
