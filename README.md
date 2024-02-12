@@ -12,6 +12,10 @@ then in ChimeraX's [Startup settings][startup-settings] add the path to the
 `presets` directory in "Custom presets folder" and add `open /path/to/init.cxc`
 in "Execute these commands at startup". 
 
+Alternatively, you can copy individual files to your own configuration, but
+mind that there are some dependencies between files (so that I only need to
+edit one file when I want to change a setting used in several places).
+
 [chimerax]: https://www.cgl.ucsf.edu/chimerax
 
 [oli]: https://github.com/olibclarke
