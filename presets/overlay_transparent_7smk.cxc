@@ -11,4 +11,6 @@ show #28 surface
 color #28 lightgrey
 color #28/c,f,i,l,o,r,u,x black
 transparency #28 70 target s
+set bgcolor white
+cofr centerofview showpivot false
 
