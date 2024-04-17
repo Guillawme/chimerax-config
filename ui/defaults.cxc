@@ -1,5 +1,5 @@
 # My preferred default appearance for quick interactive navigation
 
 preset custom "guillaume default mol display"
-cofr centerofview showpivot 6,0.25
+cofr showpivot 6,0.25
 
