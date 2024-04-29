@@ -1,6 +1,6 @@
 # Prepare AlphaFold results for visualization
 # Run as afresults #<model-id>
-alias afresults mmaker ~$1 to $1; hide ~$1 models; view $1; preset custom 'alphafold results'
+alias afresults mmaker ~$1 to $1; hide ~$1 models; view $1; mseries slider all; preset custom 'alphafold results'
 
 # Shortcut to apply conventional pLDDT color code
 # Run as afcolor #<model-id>
