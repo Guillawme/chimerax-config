@@ -1,7 +1,5 @@
 # My usual display mode
 
-hide
-show cartoons
 graphics silhouettes true
 lighting soft
 set bgcolor grey
