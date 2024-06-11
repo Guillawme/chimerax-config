@@ -1,0 +1,5 @@
+# This alias automatically opens result files from a servalcat refine_spa job,
+# assuming that all files have the default names (the prefix was not set).
+
+alias servalcatresults open refined.mmcif; open diffmap_normalized_fo.mrc; open diffmap_normalized_fofc.mrc; isolde start; clipper associate #2 toModel #1; clipper associate #3 toModel #1
+
