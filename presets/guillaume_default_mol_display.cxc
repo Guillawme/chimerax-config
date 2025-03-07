@@ -2,5 +2,4 @@
 
 graphics silhouettes true
 lighting soft
-set bgcolor grey
-
+set bgcolor white
