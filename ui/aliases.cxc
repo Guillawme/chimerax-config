@@ -1,7 +1,7 @@
 # Aliases for quick access to UI customizations
 
 # Make the center of rotation toggle-able
-alias cofron cofr centerofview showpivot 6,0.25
+alias cofron cofr centerofview showPivot 3,0.1
 alias cofroff cofr centerofview showpivot false
 
 # Automatically clip around the center of rotation
